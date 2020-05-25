@@ -4,13 +4,17 @@ const Schema = mongoose.Schema;
 const productCategorySchema = new Schema({
     name: {
         type: String,
-        required: true
+        required: true,
     },
     priority: {
         type: Number,
         required: true,
         default: 0
     },
+    products: [{
+        type: Schema.Types.ObjectId,
+        ref: 'product'
+    }],
     description: {
         type: String
     }
