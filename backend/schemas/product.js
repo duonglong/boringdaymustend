@@ -1,26 +1,20 @@
-const { gpl } = require('apollo-server-express');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-module.exports = gpl`
-    type Query {
-        totalProducts: Int!
-        allProducts: [Product!]!
+const productSchema = new Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    image: {
+        type: String,
+        required: true
+    },
+    description: {
+        type: String,
+        required: true
     }
+}, { timestamps: true });
 
-    type Product {
-        id: ID!
-        name: String!
-        image: String
-        description: String
 
-    }
-
-    type ProductInput {
-        name: String!
-        image: String!
-        description: String!
-    }
-
-    type Mutation {
-        newProduct: 
-    }
-`;
+module.exports = mongoose.model('product', productSchema);
