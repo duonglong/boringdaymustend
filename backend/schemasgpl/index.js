@@ -25,7 +25,7 @@ productCategoryTC.addRelation(
 productTC.addRelation('category_id', {
     resolver: () => productCategoryTC.getResolver('findById'),
     prepareArgs: {
-        _id: source => source._id,
+        _id: source => source.category_id,
         skip: null,
         sort: null,
     },
