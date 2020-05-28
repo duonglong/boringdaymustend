@@ -119,6 +119,7 @@ userTC.addResolver({
             confirmPassword
         );
         if (!valid) {
+            console.log(errors);
             throw new UserInputError('Errors', {
                 errors
             });

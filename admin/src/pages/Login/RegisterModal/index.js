@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Modal, Form, Input } from 'semantic-ui-react';
 import AuthService from '../../../services/Auth';
-
+import { useMutation } from '@apollo/react-hooks'
 
 const initialState = {
     email: '',
@@ -18,45 +18,63 @@ class RegisterModal extends Component {
         this.submitRegister = this.submitRegister.bind(this);
         this.clearInput = this.clearInput.bind(this);
     }
-    clearInput(){
+    clearInput() {
         this.setState(initialState);
     }
     closeModal() {
         this.clearInput();
         this.props.closeModal();
     }
-   
-    submitRegister() {
+
+    async submitRegister() {
         const { email, password, confirmPassword } = this.state;
-        this.closeModal();
+        const {data, errors } = await this.props.registerUser({ variables: { email, password, confirmPassword } });
+        if(errors){
+            console.log(errors.length);
+        }else{
+            this.closeModal();
+        }
     }
     handleChange(e) {
         const { name, value } = e.target;
-        this.setState({[name]: value});
+        this.setState({ [name]: value });
     }
 
     render() {
-        const self = this;
         const { open, dimmer } = this.props;
         const { email, password, confirmPassword } = this.state;
-
         return (
             <Modal open={open} onClose={this.closeModal} dimmer={dimmer}>
                 <Modal.Header>Register New Account</Modal.Header>
                 <Modal.Content>
                     <Form>
-                        <Form.Field>
-                            <label>Email</label>
-                            <Input value={email} name="email" placeholder='Email' onChange={this.handleChange} />
-                        </Form.Field>
-                        <Form.Field>
-                            <label>Password</label>
-                            <Input value={password} name="password" placeholder='Password' type="password" onChange={this.handleChange} />
-                        </Form.Field>
-                        <Form.Field>
-                            <label>Confirm Password</label>
-                            <Input value={confirmPassword} name="confirmPassword" placeholder='Confirm Password' type="password" onChange={this.handleChange} />
-                        </Form.Field>
+                        <Form.Field
+                            control={Input}
+                            label="Email"
+                            name="email"
+                            placeholder="Email"
+                            onChange={this.handleChange}
+                            value={email}
+                            error
+                        />
+                        <Form.Field
+                            control={Input}
+                            label="Password"
+                            name="password"
+                            placeholder="Password"
+                            onChange={this.handleChange}
+                            value={password}
+                            error={errorPassword}
+                        />
+                        <Form.Field
+                            control={Input}
+                            label="Confirm Password"
+                            name="confirmPassword"
+                            placeholder="Confirm Password"
+                            onChange={this.handleChange}
+                            value={confirmPassword}
+                            error={errorConfirmPassword}
+                        />
 
                     </Form>
                 </Modal.Content>
@@ -68,4 +86,11 @@ class RegisterModal extends Component {
     }
 }
 
-export default RegisterModal
+const RegisterModalWrapper = (props) => {
+    const [registerUser] = useMutation(AuthService.registerUser());
+    return (
+        <RegisterModal {...props} registerUser={registerUser} />
+    )
+}
+
+export default RegisterModalWrapper;
