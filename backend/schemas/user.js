@@ -4,19 +4,9 @@ const bcrypt = require('mongoose-bcrypt');
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
-    login: {
+    email: {
         type: String,
         required: true,
-        trim: true,
-    },
-    name: {
-        type: String,
-        required: true,
-    },
-    avatar: {
-        type: String,
-        required: true,
-        trim: true
     },
     password: {
         hash: {
@@ -29,6 +19,17 @@ const userSchema = new Schema({
             trim: true,
             default: '',
         },
+    },
+    first_name: {
+        type: String
+    },
+    last_name: {
+        type: String
+    },
+    avatar: {
+        type: String,
+        required: true,
+        trim: true
     },
     permissions: [
         {
@@ -52,24 +53,6 @@ const userSchema = new Schema({
             },
         },
     ],
-    preferences: {
-        email: {
-            updates: {
-                daily: {
-                    type: Boolean,
-                    default: false,
-                },
-                weekly: {
-                    type: Boolean,
-                    default: false,
-                },
-                monthly: {
-                    type: Boolean,
-                    default: true,
-                },
-            },
-        },
-    },
     active: {
         type: Boolean,
         default: true,

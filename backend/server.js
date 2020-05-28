@@ -53,6 +53,6 @@ const db = mongoose.connect(mongo_server, {
     console.log(e);
 });
 
-// Server configuration
+// add middlewares
 app.use(bodyParser.json());
 app.use('*', cors());
