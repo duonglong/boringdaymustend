@@ -9,16 +9,9 @@ const userSchema = new Schema({
         required: true,
     },
     password: {
-        hash: {
-            type: String,
-            required: true,
-            bcrypt: true,
-        },
-        recovery: {
-            type: String,
-            trim: true,
-            default: '',
-        },
+        type: String,
+        bcrypt: true,
+        required: true
     },
     first_name: {
         type: String
@@ -28,7 +21,6 @@ const userSchema = new Schema({
     },
     avatar: {
         type: String,
-        required: true,
         trim: true
     },
     permissions: [

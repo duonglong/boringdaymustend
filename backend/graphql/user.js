@@ -1,4 +1,5 @@
-const user = require('../schemas/user');
+const User = require('../schemas/user');
+const bcrypt = require('bcryptjs');
 const {
     validateLoginInput,
     validateRegisterInput
@@ -16,7 +17,8 @@ const jwt = require('jsonwebtoken');
 const AuthTC = require('./auth');
 const SECRET_KEY = process.env.SECRET_KEY;
 
-const userTC = composeWithMongoose(user, {
+
+const userTC = composeWithMongoose(User, {
 
 });
 const userInputTC = schemaComposer.createInputTC({
@@ -67,7 +69,7 @@ userTC.addResolver({
                 errors
             });
         }
-        const user = await user.findOne({
+        const user = await User.findOne({
             email: email
         }).exec();
         if (!user) {
@@ -83,9 +85,9 @@ userTC.addResolver({
                 errors
             });
         }
-        const token = generateToken(user);
+        const accessToken = generateToken(user);
         return {
-            token
+            accessToken
         };
     },
 });
@@ -106,7 +108,8 @@ userTC.addResolver({
             email,
             password,
             confirmPassword
-        } = args;
+        } = args.input;
+        console.log(args);
         const {
             valid,
             errors
@@ -122,34 +125,28 @@ userTC.addResolver({
         }
         // TODO: Make sure user doesnt already exist
         const user = await User.findOne({
-            username
+            email
         });
         if (user) {
-            throw new UserInputError('Username is taken', {
+            throw new UserInputError('Email is taken', {
                 errors: {
-                    username: 'This username is taken'
+                    email: 'This email is taken'
                 }
             });
         }
         // hash password and create an auth token
-        password = await bcrypt.hash(password, 12);
+        //password = await bcrypt.hash(password, 12);
 
         const newUser = new User({
             email,
-            username,
-            password,
-            createdAt: new Date().toISOString()
+            password
         });
 
         const res = await newUser.save();
 
         const token = generateToken(res);
 
-        return {
-            ...res._doc,
-            id: res._id,
-            token
-        };
+        return res;
     }
 });
 
@@ -174,6 +171,7 @@ schemaComposer.Mutation.addFields({
     userRemoveById: userTC.getResolver('removeById'),
     userRemoveOne: userTC.getResolver('removeOne'),
     userRemoveMany: userTC.getResolver('removeMany'),
+    userRegister: userTC.getResolver('register'),
 });
 
 module.exports = userTC;

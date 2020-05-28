@@ -1,10 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const http = require('http');
 const path = require('path');
 const mongoose =  require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const schema = require('./schemasgpl/index');
+const schema = require('./graphql/index');
 const {
     fileLoader,
     mergeTypes,
@@ -14,7 +15,6 @@ const {
     ApolloServer
 } = require('apollo-server-express');
 // Load env
-require('dotenv').config();
 
 const DB_USER = process.env.DB_USER;
 const DB_PASSWORD = process.env.DB_PASSWORD;
