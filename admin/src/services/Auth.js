@@ -20,14 +20,17 @@ const AuthService = {
         `;
         return REGISER_USER_QUERY;
     },
-    
+
     userLogin: () => {
         const LOGIN_QUERY = gql`
-        {
-            userLogin(email:$email, password:$password){
-                accessToken
-            } 
-        }
+            mutation userLogin(
+                $email: String!
+                $password: String!
+            ){
+                userLogin(email:$email, password:$password){
+                    accessToken
+                } 
+            }
         `;
         return LOGIN_QUERY
     }

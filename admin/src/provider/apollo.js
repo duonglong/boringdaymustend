@@ -3,7 +3,7 @@ import App from '../App';
 import ApolloClient from 'apollo-client';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { createHttpLink } from 'apollo-link-http';
-import { ApolloProvider, withApollo } from 'react-apollo';
+import { ApolloProvider, withApollo} from 'react-apollo';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
@@ -21,12 +21,12 @@ const authLink = setContext(() => {
 
 const client = new ApolloClient({
   defaultOptions: {
-    watchQuery: {
-      errorPolicy: 'all'
-    },
-    query: {
-      errorPolicy: 'all'
-    },
+    // watchQuery: {
+    //   errorPolicy: 'all'
+    // },
+    // query: {
+    //   errorPolicy: 'all'
+    // },
     mutate: {
       errorPolicy: 'all'
     }
@@ -36,10 +36,10 @@ const client = new ApolloClient({
 });
 const AppWithClient = withApollo(App);
 function Provider() {
-  return (
-    <ApolloProvider client={client}>
-      <AppWithClient />
-    </ApolloProvider>
-  );
+    return  (
+        <ApolloProvider client={client}>
+          <AppWithClient />
+        </ApolloProvider>
+      );
 }
 export default Provider;

@@ -44,7 +44,7 @@ function generateToken(user) {
 // Login
 userTC.addResolver({
     name: 'login',
-    kind: 'query',
+    kind: 'mutation',
     type: AuthTC,
     args: {
         email: 'String!',
@@ -109,7 +109,6 @@ userTC.addResolver({
             password,
             confirmPassword
         } = args.input;
-        console.log(args);
         const {
             valid,
             errors
@@ -119,7 +118,6 @@ userTC.addResolver({
             confirmPassword
         );
         if (!valid) {
-            console.log(errors);
             throw new UserInputError('Errors', {
                 errors
             });
@@ -144,9 +142,7 @@ userTC.addResolver({
         });
 
         const res = await newUser.save();
-
-        const token = generateToken(res);
-
+        generateToken(res);
         return res;
     }
 });
@@ -160,7 +156,6 @@ schemaComposer.Query.addFields({
     userCount: userTC.getResolver('count'),
     userConnection: userTC.getResolver('connection'),
     userPagination: userTC.getResolver('pagination'),
-    userLogin: userTC.getResolver('login'),
 });
 // Regiseter Resolvers
 schemaComposer.Mutation.addFields({
@@ -173,6 +168,7 @@ schemaComposer.Mutation.addFields({
     userRemoveOne: userTC.getResolver('removeOne'),
     userRemoveMany: userTC.getResolver('removeMany'),
     userRegister: userTC.getResolver('register'),
+    userLogin: userTC.getResolver('login'),
 });
 
 module.exports = userTC;

@@ -6,8 +6,6 @@ import ApolloProvider from './provider/apollo';
 dotenv.config();
 
 ReactDOM.render(
- 
-    <ApolloProvider />
-,
+  <ApolloProvider />,
   document.getElementById('root')
 );
