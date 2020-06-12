@@ -1,19 +1,13 @@
 require('dotenv').config();
 const express = require('express');
-const http = require('http');
-const path = require('path');
-const mongoose =  require('mongoose');
+const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const schema = require('./graphql/index');
-const {
-    fileLoader,
-    mergeTypes,
-    mergeResolvers
-} = require('merge-graphql-schemas');
-const {
-    ApolloServer
-} = require('apollo-server-express');
+const { ApolloServer } = require('apollo-server-express');
+const logger = require('./logger');
+const gqlLogger = require('./gqlplugin/logger')
+const isAuth = require('./utils/auth');
 // Load env
 
 const DB_USER = process.env.DB_USER;
@@ -26,13 +20,24 @@ const mongo_server = `mongodb://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/
 const app = express();
 
 const apolloServer = new ApolloServer({
-    schema
+    schema,
+    engine: {
+        debugPrintReports: true,
+    },
+    plugins: [
+        gqlLogger
+    ],
+    context: ({ req }) => {
+        isAuth(req);
+        return { req };
+    },
 });
 
-// Plug GraphQL Middleware
-apolloServer.applyMiddleware({
-    app
-});
+// add middlewares
+app.use(bodyParser.json());
+app.use('*', cors());
+// app.use(isAuth);
+
 
 const db = mongoose.connect(mongo_server, {
     useNewUrlParser: true,
@@ -40,19 +45,20 @@ const db = mongoose.connect(mongo_server, {
     useCreateIndex: true,
     useFindAndModify: false
 })
-.then(() => {
-    console.log(`Connected to db: ${DB_NAME}`);
-    app.listen({
-        port: PORT,
-    }, function () {
-        console.log(`Server is listening on port: ${PORT}`);
+    .then(() => {
+        logger.info(`Connected to db: ${DB_NAME}`);
+        app.listen({
+            port: PORT,
+        }, function () {
+            logger.info(`Server is listening on port: ${PORT}`);
+        });
+    })
+    .catch((e) => {
+        logger.error(`Failed to connect to: ${mongo_server}`);
+        logger.error(e);        
     });
-})
-.catch((e) => {
-    console.log(`Failed to connect to: ${mongo_server}`);
-    console.log(e);
-});
 
-// add middlewares
-app.use(bodyParser.json());
-app.use('*', cors());
+// Plug GraphQL Middleware
+apolloServer.applyMiddleware({
+    app
+});

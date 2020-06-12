@@ -5,7 +5,6 @@ const {
 // Put schemas here ...
 const productTC = require('./product');
 const productCategoryTC = require('./product_category');
-const authTC = require('./auth');
 const userTC = require('./user');
 
 // Add relations

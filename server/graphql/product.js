@@ -1,7 +1,7 @@
 const product = require('../schemas/product');
 const { composeWithMongoose } =  require('graphql-compose-mongoose');
 const { schemaComposer } = require('graphql-compose');
-
+const authCheck = require('../middlewares/authCheck');
 const productTC = composeWithMongoose(product, {
 // fill new options ...
 });
@@ -23,25 +23,25 @@ productTC.addResolver({
 });
 
 schemaComposer.Query.addFields({
-    productById: productTC.getResolver('findById'),
-    productByIds: productTC.getResolver('findByIds'),
-    productOne: productTC.getResolver('findOne'),
-    productMany: productTC.getResolver('findMany'),
-    productCount: productTC.getResolver('count'),
-    productConnection: productTC.getResolver('connection'),
-    productPagination: productTC.getResolver('pagination'),
+    productById: productTC.getResolver('findById', [authCheck]),
+    productByIds: productTC.getResolver('findByIds', [authCheck]),
+    productOne: productTC.getResolver('findOne', [authCheck]),
+    productMany: productTC.getResolver('findMany', [authCheck]),
+    productCount: productTC.getResolver('count', [authCheck]),
+    productConnection: productTC.getResolver('connection', [authCheck]),
+    productPagination: productTC.getResolver('pagination', [authCheck]),
 });
 
 schemaComposer.Mutation.addFields({
-    productCreateOne: productTC.getResolver('createOne'),
-    productCreateMany: productTC.getResolver('createMany'),
-    productUpdateById: productTC.getResolver('updateById'),
-    productUpdateOne: productTC.getResolver('updateOne'),
-    productUpdateMany: productTC.getResolver('updateMany'),
-    productRemoveById: productTC.getResolver('removeById'),
-    productRemoveOne: productTC.getResolver('removeOne'),
-    productRemoveMany: productTC.getResolver('removeMany'),
-    productFindOrCreate: productTC.getResolver('findOrCreate'),
+    productCreateOne: productTC.getResolver('createOne', [authCheck]),
+    productCreateMany: productTC.getResolver('createMany', [authCheck]),
+    productUpdateById: productTC.getResolver('updateById', [authCheck]),
+    productUpdateOne: productTC.getResolver('updateOne', [authCheck]),
+    productUpdateMany: productTC.getResolver('updateMany', [authCheck]),
+    productRemoveById: productTC.getResolver('removeById', [authCheck]),
+    productRemoveOne: productTC.getResolver('removeOne', [authCheck]),
+    productRemoveMany: productTC.getResolver('removeMany', [authCheck]),
+    productFindOrCreate: productTC.getResolver('findOrCreate', [authCheck]),
 });
 
 module.exports = productTC;

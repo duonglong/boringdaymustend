@@ -1,26 +1,20 @@
 const User = require('../schemas/user');
 const bcrypt = require('bcryptjs');
-const {
-    validateLoginInput,
-    validateRegisterInput
-} = require('../utils/validator');
-const {
-    composeWithMongoose
-} = require('graphql-compose-mongoose');
-const {
-    schemaComposer
-} = require('graphql-compose');
-const {
-    UserInputError
-} = require('apollo-server');
-const jwt = require('jsonwebtoken');
+const { generateRefreshToken, generateAccessToken } = require('../utils/tokenService');
+const { validateLoginInput, validateRegisterInput } = require('../utils/validator');
+const { composeWithMongoose } = require('graphql-compose-mongoose');
+const { schemaComposer } = require('graphql-compose');
+const { UserInputError } = require('apollo-server');
+const authCheck = require('../middlewares/authCheck');
 const AuthTC = require('./auth');
-const SECRET_KEY = process.env.SECRET_KEY;
 
 
+// UserTC
 const userTC = composeWithMongoose(User, {
 
 });
+
+// UserInputTC
 const userInputTC = schemaComposer.createInputTC({
     name: 'userInput',
     fields: {
@@ -29,17 +23,6 @@ const userInputTC = schemaComposer.createInputTC({
         confirmPassword: 'String!'
     }
 });
-// Generate token function
-function generateToken(user) {
-    return jwt.sign({
-            id: user.id,
-            email: user.email
-        },
-        SECRET_KEY, {
-            expiresIn: '1h'
-        }
-    );
-}
 
 // Login
 userTC.addResolver({
@@ -85,9 +68,11 @@ userTC.addResolver({
                 errors
             });
         }
-        const accessToken = generateToken(user);
+        const accessToken = generateAccessToken(user);
+        const refreshToken = generateRefreshToken(user);        
         return {
-            accessToken
+            accessToken,
+            refreshToken
         };
     },
 });
@@ -97,7 +82,7 @@ userTC.addResolver({
     name: "register",
     kind: "mutation",
     type: userTC,
-    args: {input: userInputTC},
+    args: { input: userInputTC },
     resolve: async ({
         source,
         args,
@@ -133,8 +118,6 @@ userTC.addResolver({
                 }
             });
         }
-        // hash password and create an auth token
-        //password = await bcrypt.hash(password, 12);
 
         const newUser = new User({
             email,
@@ -142,7 +125,6 @@ userTC.addResolver({
         });
 
         const res = await newUser.save();
-        generateToken(res);
         return res;
     }
 });
@@ -157,16 +139,18 @@ schemaComposer.Query.addFields({
     userConnection: userTC.getResolver('connection'),
     userPagination: userTC.getResolver('pagination'),
 });
+
 // Regiseter Resolvers
 schemaComposer.Mutation.addFields({
-    userCreateOne: userTC.getResolver('createOne'),
-    userCreateMany: userTC.getResolver('createMany'),
-    userUpdateById: userTC.getResolver('updateById'),
-    userUpdateOne: userTC.getResolver('updateOne'),
-    userUpdateMany: userTC.getResolver('updateMany'),
-    userRemoveById: userTC.getResolver('removeById'),
-    userRemoveOne: userTC.getResolver('removeOne'),
-    userRemoveMany: userTC.getResolver('removeMany'),
+    userCreateOne: userTC.getResolver('createOne', [authCheck]),
+    userCreateMany: userTC.getResolver('createMany', [authCheck]),
+    userUpdateById: userTC.getResolver('updateById', [authCheck]),
+    userUpdateOne: userTC.getResolver('updateOne', [authCheck]),
+    userUpdateMany: userTC.getResolver('updateMany', [authCheck]),
+    userRemoveById: userTC.getResolver('removeById', [authCheck]),
+    userRemoveOne: userTC.getResolver('removeOne', [authCheck]),
+    userRemoveMany: userTC.getResolver('removeMany', [authCheck]),
+
     userRegister: userTC.getResolver('register'),
     userLogin: userTC.getResolver('login'),
 });
