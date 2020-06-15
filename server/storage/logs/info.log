@@ -142038,3 +142038,8938 @@ query productCategoryPagination($page: Int, $perPage: Int) {
   }
 }
 
+2020-06-12T05:32:03.137Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-12T05:32:03.159Z [SERVER] info: Server is listening on port: 8000
+2020-06-12T05:33:02.636Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T05:33:02.638Z [SERVER] info: Parsing started!
+2020-06-12T05:33:02.642Z [SERVER] info: Validation started!
+2020-06-12T05:35:39.679Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T05:35:43.931Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:08:23.556Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:21:35.187Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:23:10.325Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:25:02.223Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:25:30.216Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:25:44.559Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:26:03.510Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:26:16.494Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:26:22.598Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:28:48.302Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:29:04.143Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:29:16.720Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:29:56.786Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:30:17.820Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:30:26.511Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:31:21.447Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:31:42.029Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:31:57.877Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:32:06.001Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:32:16.760Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-12T06:32:56.862Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:14:54.417Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:16:19.767Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:16:33.740Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:27:36.650Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:29:51.372Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:30:21.626Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:30:46.972Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:31:54.150Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:33:09.322Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:33:28.390Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:36:37.661Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:37:08.107Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:37:37.194Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:38:25.360Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:43:30.926Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:44:36.860Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:47:54.939Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:48:06.046Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:48:57.192Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:49:04.442Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:49:36.459Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:49:58.049Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:50:14.346Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:50:29.737Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:50:36.366Z [SERVER] info: Request started! Query:
+query productCategoryPagination($page: Int, $perPage: Int) {
+  productCategoryPagination(page: $page, perPage: $perPage) {
+    count
+    pageInfo {
+      currentPage
+      perPage
+      pageCount
+      itemCount
+      hasNextPage
+      hasPreviousPage
+      __typename
+    }
+    items {
+      _id
+      name
+      description
+      priority
+      __typename
+    }
+    __typename
+  }
+}
+
+2020-06-13T03:57:22.585Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:22.592Z [SERVER] info: Parsing started!
+2020-06-13T03:57:22.605Z [SERVER] info: Validation started!
+2020-06-13T03:57:25.111Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:27.311Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:29.400Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:31.488Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:33.561Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:35.637Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:37.724Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:39.808Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:41.880Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:43.979Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:46.048Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:48.158Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:50.251Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:52.321Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:54.387Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:56.629Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:57:58.721Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:00.768Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:02.894Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:04.951Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:07.006Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:09.059Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:11.121Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:13.172Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:15.219Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:17.272Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:19.335Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:21.399Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:23.471Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:25.547Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:27.600Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:29.651Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:31.747Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:33.852Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:35.903Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:37.960Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:40.009Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:42.081Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:44.139Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:46.199Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:48.306Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:50.360Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:52.414Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:54.491Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:56.545Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:58:58.602Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:00.662Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:02.755Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:04.821Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:06.881Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:08.995Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:11.056Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:13.123Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:15.183Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:17.247Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:19.337Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:21.408Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:23.486Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:25.535Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:27.604Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:29.665Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:31.729Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:33.787Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:35.849Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:37.915Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:39.985Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:42.053Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:44.134Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:46.199Z [SERVER] info: Request started! Query:
+query IntrospectionQuery {
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+    types {
+      ...FullType
+    }
+    directives {
+      name
+      description
+      locations
+      args {
+        ...InputValue
+      }
+    }
+  }
+}
+
+fragment FullType on __Type {
+  kind
+  name
+  description
+  fields(includeDeprecated: true) {
+    name
+    description
+    args {
+      ...InputValue
+    }
+    type {
+      ...TypeRef
+    }
+    isDeprecated
+    deprecationReason
+  }
+  inputFields {
+    ...InputValue
+  }
+  interfaces {
+    ...TypeRef
+  }
+  enumValues(includeDeprecated: true) {
+    name
+    description
+    isDeprecated
+    deprecationReason
+  }
+  possibleTypes {
+    ...TypeRef
+  }
+}
+
+fragment InputValue on __InputValue {
+  name
+  description
+  type {
+    ...TypeRef
+  }
+  defaultValue
+}
+
+fragment TypeRef on __Type {
+  kind
+  name
+  ofType {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+2020-06-13T03:59:51.384Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T03:59:51.394Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T03:59:53.357Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T03:59:53.358Z [SERVER] info: Parsing started!
+2020-06-13T03:59:53.360Z [SERVER] info: Validation started!
+2020-06-13T03:59:55.450Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T03:59:57.521Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T03:59:59.594Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:01.662Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:03.771Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:05.841Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:07.909Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:09.985Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:12.038Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:15.243Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T04:00:15.249Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T04:00:19.172Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:19.174Z [SERVER] info: Parsing started!
+2020-06-13T04:00:19.176Z [SERVER] info: Validation started!
+2020-06-13T04:00:21.257Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:23.333Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:25.425Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:27.505Z [SERVER] info: Request started! Query:
+[object Object]
+2020-06-13T04:00:30.586Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T04:00:30.592Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T04:00:34.606Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:34.607Z [SERVER] info: Parsing started!
+2020-06-13T04:00:34.608Z [SERVER] info: Validation started!
+2020-06-13T04:00:36.683Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:38.763Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:42.160Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T04:00:42.171Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T04:00:45.907Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:45.909Z [SERVER] info: Parsing started!
+2020-06-13T04:00:45.911Z [SERVER] info: Validation started!
+2020-06-13T04:00:47.997Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:50.089Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:52.157Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:54.958Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T04:00:54.970Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T04:00:59.272Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:00:59.274Z [SERVER] info: Parsing started!
+2020-06-13T04:00:59.276Z [SERVER] info: Validation started!
+2020-06-13T04:01:01.365Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:01:04.297Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T04:01:04.303Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T04:01:08.602Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T04:01:08.603Z [SERVER] info: Parsing started!
+2020-06-13T04:01:08.605Z [SERVER] info: Validation started!
+2020-06-13T04:01:10.683Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:00:06.272Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T12:00:28.332Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T12:00:28.348Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T12:01:08.393Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T12:01:08.421Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T12:01:24.515Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:24.518Z [SERVER] info: Parsing started!
+2020-06-13T12:01:24.520Z [SERVER] info: Validation started!
+2020-06-13T12:01:27.474Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:27.533Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:27.652Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:27.835Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:29.982Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:32.070Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:34.131Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:36.184Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:38.261Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:40.352Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:46.641Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:46.681Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:46.730Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:48.821Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:50.991Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:53.062Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:55.117Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:57.183Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:01:59.263Z [SERVER] info: Request started! Query:
+undefined
+2020-06-13T12:17:38.580Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T12:17:38.599Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T12:17:46.864Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:46.869Z [SERVER] info: Parsing started!
+2020-06-13T12:17:46.871Z [SERVER] info: Validation started!
+2020-06-13T12:17:47.050Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:47.115Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:47.204Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:47.329Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:49.625Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:49.745Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:51.076Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:53.147Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:55.211Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:57.263Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:17:59.325Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:01.381Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:03.440Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:05.517Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:07.583Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:09.646Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:11.700Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:13.758Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:15.822Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:17.879Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:19.923Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:21.974Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:24.038Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:26.093Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:28.144Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:30.199Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:32.246Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:34.311Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:36.365Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:38.421Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:40.479Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:42.539Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:44.598Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:46.655Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:48.702Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:50.766Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:52.816Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:54.856Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:56.904Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:18:58.944Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:00.986Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:03.024Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:05.071Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:07.109Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:09.157Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:11.197Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:13.235Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:15.271Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T12:19:17.311Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T13:00:31.418Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T13:00:33.511Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T13:00:35.597Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T13:00:37.666Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T13:00:39.766Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:05.236Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:07.353Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:09.429Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:11.562Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:14.920Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:14.922Z [SERVER] info: Parsing started!
+2020-06-13T14:48:14.924Z [SERVER] info: Validation started!
+2020-06-13T14:48:28.296Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:30.539Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:32.670Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:34.756Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:36.828Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:38.890Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:40.969Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:43.035Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:45.089Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:47.149Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:49.208Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:51.266Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:53.365Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:55.448Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:57.523Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:48:59.598Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:01.689Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:03.758Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:05.832Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:07.908Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:09.970Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:12.034Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:14.135Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:16.215Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:18.288Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:20.381Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:22.448Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:24.512Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:26.606Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:28.670Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:30.730Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:32.795Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:34.866Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:36.925Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:38.989Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:41.047Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:43.110Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:45.202Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:47.301Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:49.446Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:51.533Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:53.602Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:55.681Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:57.735Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:49:59.806Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:01.861Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:03.962Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:06.048Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:08.118Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:10.169Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:12.241Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:14.335Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:16.432Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:18.579Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:20.645Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:22.704Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:24.766Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:26.825Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:28.921Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:31.075Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:33.174Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:35.245Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:37.317Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:39.448Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:41.519Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:43.587Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:45.652Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:47.721Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:49.767Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:51.819Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:53.874Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:55.913Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:50:58.002Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:00.104Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:02.201Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:04.262Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:06.305Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:08.371Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:10.439Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:12.494Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:14.583Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:16.638Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:18.711Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:20.761Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:22.835Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:24.880Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:26.951Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:29.042Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:31.098Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:33.233Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:35.297Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:37.362Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:39.414Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:41.491Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:43.568Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:45.624Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:47.702Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:49.749Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:51.832Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:53.990Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:56.121Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:51:58.251Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:00.394Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:02.560Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:04.637Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:06.751Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:08.828Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:10.900Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:12.978Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:15.051Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:17.118Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:19.174Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:21.232Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:23.294Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:25.435Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:27.507Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:29.598Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:31.679Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:33.731Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:35.783Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:37.842Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:39.925Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:41.972Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:44.030Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:46.091Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:48.219Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:50.293Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:52.344Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:54.391Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:56.450Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:52:58.531Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:00.594Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:02.636Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:04.678Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:06.728Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:08.776Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:10.841Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:13.014Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:15.101Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:17.191Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:19.283Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:21.378Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:23.474Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:25.553Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:27.628Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T14:53:29.685Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:01:40.854Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:01:52.768Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:02:12.403Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:02:50.218Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:04:13.403Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:05:08.468Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:06:48.133Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:08:19.640Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:09:06.197Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:09:31.290Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:10:17.212Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:10:25.941Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:10:25.943Z [SERVER] info: Parsing started!
+2020-06-13T15:10:25.946Z [SERVER] info: Validation started!
+2020-06-13T15:10:56.663Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:10:58.873Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:00.970Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:03.036Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:05.112Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:07.161Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:09.286Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:11.959Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:23.102Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:23.103Z [SERVER] info: Parsing started!
+2020-06-13T15:11:23.104Z [SERVER] info: Validation started!
+2020-06-13T15:11:42.469Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:44.547Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:46.651Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:48.714Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:50.829Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:52.922Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:55.064Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:57.140Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:11:59.201Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:12:01.250Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:12:03.320Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:12:05.525Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:12:12.850Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:12:12.851Z [SERVER] info: Parsing started!
+2020-06-13T15:12:12.853Z [SERVER] info: Validation started!
+2020-06-13T15:13:32.893Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T15:13:32.901Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T15:13:39.771Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:13:39.777Z [SERVER] info: Parsing started!
+2020-06-13T15:13:39.788Z [SERVER] info: Validation started!
+2020-06-13T15:13:48.079Z [SERVER] info: Request started! Query:
+/graphql
+2020-06-13T15:13:48.080Z [SERVER] info: Parsing started!
+2020-06-13T15:13:48.081Z [SERVER] info: Validation started!
+2020-06-13T15:14:24.476Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-13T15:14:24.482Z [SERVER] info: Server is listening on port: 8000
+2020-06-13T15:15:25.306Z [SERVER] info: Request started:/graphql
+2020-06-13T15:15:25.329Z [SERVER] info: Parsing started!
+2020-06-13T15:15:25.334Z [SERVER] info: Validation started!
+2020-06-13T15:15:31.799Z [SERVER] info: Request started:/graphql
+2020-06-13T15:15:31.800Z [SERVER] info: Parsing started!
+2020-06-13T15:15:31.803Z [SERVER] info: Validation started!
+2020-06-13T15:16:03.922Z [SERVER] info: Request started:/graphql
+2020-06-13T15:16:55.662Z [SERVER] info: Request started:/graphql
+2020-06-13T15:17:20.541Z [SERVER] info: Request started:/graphql
+2020-06-13T15:17:52.061Z [SERVER] info: Request started:/graphql
+2020-06-13T15:17:59.705Z [SERVER] info: Request started:/graphql
+2020-06-14T08:11:35.771Z [SERVER] info: Request started:/graphql
+2020-06-14T08:11:44.864Z [SERVER] info: Request started:/graphql
+2020-06-14T08:12:44.216Z [SERVER] info: Connected to db: boringdaymustend
+2020-06-14T08:12:44.227Z [SERVER] info: Server is listening on port: 8000
+2020-06-14T08:12:49.580Z [SERVER] info: Request started:/graphql
+2020-06-14T08:12:49.582Z [SERVER] info: Parsing started!
+2020-06-14T08:12:49.583Z [SERVER] info: Validation started!
+2020-06-14T08:12:57.337Z [SERVER] info: Request started:/graphql
+2020-06-14T08:12:57.337Z [SERVER] info: Parsing started!
+2020-06-14T08:12:57.339Z [SERVER] info: Validation started!
+2020-06-14T08:13:20.623Z [SERVER] info: Request started:/graphql
+2020-06-14T08:13:27.098Z [SERVER] info: Request started:/graphql
+2020-06-14T08:13:27.100Z [SERVER] info: Parsing started!
+2020-06-14T08:13:27.101Z [SERVER] info: Validation started!
+2020-06-14T08:13:36.955Z [SERVER] info: Request started:/graphql
+2020-06-14T08:13:52.339Z [SERVER] info: Request started:/graphql
+2020-06-14T08:13:54.673Z [SERVER] info: Request started:/graphql
+2020-06-14T08:13:58.933Z [SERVER] info: Request started:/graphql
+2020-06-14T08:14:00.892Z [SERVER] info: Request started:/graphql
+2020-06-14T08:14:07.821Z [SERVER] info: Request started:/graphql
+2020-06-14T08:14:09.964Z [SERVER] info: Request started:/graphql
+2020-06-14T08:14:54.072Z [SERVER] info: Request started:/graphql
+2020-06-14T08:15:00.899Z [SERVER] info: Request started:/graphql
+2020-06-14T08:15:03.845Z [SERVER] info: Request started:/graphql
+2020-06-15T05:42:32.220Z [SERVER] info: Request started:/graphql
+2020-06-15T05:44:43.246Z [SERVER] info: Request started:/graphql
+2020-06-15T05:45:16.361Z [SERVER] info: Request started:/graphql
+2020-06-15T05:45:24.713Z [SERVER] info: Request started:/graphql
+2020-06-15T05:45:37.317Z [SERVER] info: Request started:/graphql
+2020-06-15T05:45:43.603Z [SERVER] info: Request started:/graphql
+2020-06-15T05:45:48.466Z [SERVER] info: Request started:/graphql
+2020-06-15T05:51:01.921Z [SERVER] info: Request started:/graphql
+2020-06-15T05:51:10.392Z [SERVER] info: Request started:/graphql
+2020-06-15T05:53:16.300Z [SERVER] info: Request started:/graphql
+2020-06-15T05:53:21.658Z [SERVER] info: Request started:/graphql
+2020-06-15T05:53:24.290Z [SERVER] info: Request started:/graphql
+2020-06-15T05:53:36.437Z [SERVER] info: Request started:/graphql
+2020-06-15T05:53:37.807Z [SERVER] info: Request started:/graphql
+2020-06-15T05:57:13.444Z [SERVER] info: Request started:/graphql
+2020-06-15T05:57:23.804Z [SERVER] info: Request started:/graphql
+2020-06-15T05:58:30.904Z [SERVER] info: Request started:/graphql
+2020-06-15T05:58:37.735Z [SERVER] info: Request started:/graphql
+2020-06-15T05:58:37.797Z [SERVER] info: Request started:/graphql
+2020-06-15T05:58:51.140Z [SERVER] info: Request started:/graphql
+2020-06-15T05:58:51.189Z [SERVER] info: Request started:/graphql

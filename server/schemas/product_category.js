@@ -7,9 +7,8 @@ const productCategorySchema = new Schema({
         required: true,
     },
     priority: {
-        type: Number,
+        type: String,
         required: true,
-        default: 0
     },
     products: [{
         type: Schema.Types.ObjectId,

@@ -1,8 +1,8 @@
 const logger = require('../logger');
 module.exports = {
     // Fires whenever a GraphQL request is received from a client.
-    requestDidStart(requestContext) {
-        logger.info('Request started! Query:\n' + requestContext.request.query);
+    requestDidStart(requestContext) {        
+        logger.info('Request started:' + requestContext.context.req.baseUrl);
         return {
             // Fires whenever Apollo Server will parse a GraphQL
             // request to create its associated document AST.

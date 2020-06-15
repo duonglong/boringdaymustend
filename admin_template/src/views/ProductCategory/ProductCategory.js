@@ -1,44 +1,48 @@
-import React from 'react';
-import { useQuery } from '@apollo/react-hooks';
+import React, { useState } from 'react';
+import { useQuery, useMutation } from '@apollo/react-hooks';
 import { Button, Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
-import gql from 'graphql-tag';
-import { Loading, Datatable } from '../Base';
 
-const CATEGORY_LIST = gql`
-query productCategoryPagination($page: Int, $perPage: Int){
-  productCategoryPagination(
-    page: $page
-    perPage: $perPage
-   ){
-     count,
-     pageInfo {
-        currentPage,
-        perPage,
-        pageCount,
-        itemCount,
-        hasNextPage,
-        hasPreviousPage
-     },
-     items {
-       _id,
-       name,
-       description,
-       priority    
-     }
-   }
-}
-`
+import { CREATE_CATEGORY, CATEGORY_LIST } from '../../queries/ProductCategoryQueries';
+import { Loading, Datatable } from '../Base';
+import ModalCreate from './ModalCreate';
+import ModalEdit from './ModalEdit';
+
 
 export default (props) => {
   const { loading, data } = useQuery(CATEGORY_LIST);
+  const [openEdit, setOpenEdit] = useState(false);
+  const [openCreate, setOpenCreate] = useState(false);
+  const [currentCategId, setCurrentCategId] = useState(false);
+  const [createCategory, { loading: createLoading }] = useMutation(CREATE_CATEGORY, {
+    refetchQueries: [{
+      query: CATEGORY_LIST
+    }]
+  });
   if (loading) {
     return <Loading />
   }
+
+  const onCreateCategory = (input) => {        
+    createCategory({variables: input});
+    setOpenCreate(false);
+  }
+
+  const openCreateModal = () => {
+    setOpenCreate(true);
+  }
+
+  const onCloseCreate = () => {
+    setOpenCreate(false);
+  }
+
   const onEdit = (e) => {
-    console.log(e.target.getAttribute('data-id'));
+    setCurrentCategId(parseInt(e.target.getAttribute('data-id')));
+    setOpenEdit(true);
+  }
+  const onCloseEdit = () => {
+    setOpenEdit(false);
   }
   const onDelete = (e) => {
-    console.log(e.target.getAttribute('data-id'));
   }
 
   const columns = [
@@ -72,8 +76,11 @@ export default (props) => {
       }
     },
   ];
+
   return (
     <div className="animated fadeIn">
+      <ModalEdit isOpen={openEdit} closeModal={onCloseEdit} categId={currentCategId} />
+      <ModalCreate isOpen={openCreate} closeModal={onCloseCreate} loading={createLoading} onCreate={onCreateCategory}/>
       <Row>
         <Col>
           <Card>
@@ -81,7 +88,8 @@ export default (props) => {
               <i className="fa fa-align-justify"></i> Product Category
               </CardHeader>
             <CardBody>
-              <Datatable columns={columns} data={data.productCategoryPagination.items}/>              
+              <Button className="btn-square" color="primary" onClick={openCreateModal} onCreate={openCreateModal}>Create</Button>
+              <Datatable columns={columns} data={data.productCategoryPagination.items} />
             </CardBody>
           </Card>
         </Col>
