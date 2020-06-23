@@ -29,10 +29,22 @@ const EDIT_CATEGORY = gql`
             priority: $priority,
             description: $description
         }){
-            recordId
+            record {
+                name
+            }
         }
     }
 `;
+
+const DELETE_CATEGORY = gql`
+    mutation productCategoryRemoveById(
+        $id: MongoID!
+    ){
+        productCategoryRemoveById(_id: $id){
+            recordId
+        }
+    }
+`
 
 const GET_CATEGORY_BY_ID = gql`
     query productCategoryById(
@@ -76,5 +88,6 @@ export {
     CREATE_CATEGORY,
     CATEGORY_LIST,
     EDIT_CATEGORY,
-    GET_CATEGORY_BY_ID
+    GET_CATEGORY_BY_ID,
+    DELETE_CATEGORY
 }

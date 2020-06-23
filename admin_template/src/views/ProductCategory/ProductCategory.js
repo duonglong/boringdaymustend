@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/react-hooks';
 import { Button, Card, CardBody, CardHeader, Col, Row } from 'reactstrap';
 
-import { CREATE_CATEGORY, CATEGORY_LIST, EDIT_CATEGORY } from '../../queries/ProductCategoryQueries';
+import { CREATE_CATEGORY, CATEGORY_LIST, EDIT_CATEGORY, DELETE_CATEGORY } from '../../queries/ProductCategoryQueries';
 import { Loading, Datatable } from '../Base';
 import ModalCreate from './ModalCreate';
 import ModalEdit from './ModalEdit';
@@ -20,7 +20,13 @@ export default (props) => {
     }]
   });
 
-  const [editCategory, {loading: editLoading }] = useMutation(EDIT_CATEGORY, {
+  const [editCategory, { loading: editLoading }] = useMutation(EDIT_CATEGORY, {
+    refetchQueries: [{
+      query: CATEGORY_LIST
+    }]
+  });
+
+  const [deleteCategory, { loading: deleteLoading }] = useMutation(DELETE_CATEGORY, {
     refetchQueries: [{
       query: CATEGORY_LIST
     }]
@@ -42,20 +48,23 @@ export default (props) => {
     setOpenCreate(false);
   }
 
-  const onEditCategory= (input) => {
-    editCategory({variables: {input}})
+  const onEditCategory = (input) => {
+    editCategory({ variables: input });
+    setOpenEdit(false);
   }
 
   const onOpenEditModal = (e) => {
     setCurrentCategId(e.target.getAttribute('data-id'));
     setOpenEdit(true);
   }
-  
+
   const onCloseEdit = () => {
     setOpenEdit(false);
   }
 
   const onDelete = (e) => {
+    const id = e.target.getAttribute('data-id');
+    deleteCategory({variables: {id}});
   }
 
   const columns = [
@@ -92,7 +101,7 @@ export default (props) => {
 
   return (
     <div className="animated fadeIn">
-      {openEdit && <ModalEdit isOpen={openEdit} closeModal={onCloseEdit} categId={currentCategId} onEdit={onEditCategory} loading={editLoading}/>}
+      {openEdit && <ModalEdit isOpen={openEdit} closeModal={onCloseEdit} categId={currentCategId} onEdit={onEditCategory} loading={editLoading} />}
       {openCreate && <ModalCreate isOpen={openCreate} closeModal={onCloseCreate} loading={createLoading} onCreate={onCreateCategory} />}
       <Row>
         <Col>

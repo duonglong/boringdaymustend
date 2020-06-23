@@ -26,10 +26,8 @@ export default props => {
     const [input, setInput] = useState({id: props.categId});
 
     const handleOnchange = (e) => {
-        console.log(e.target);
         const { name, value } = e.target;
         const newInput = {...input, [name]: value}
-        console.log(newInput);
         setInput(newInput);        
     };
     if (loading) {
