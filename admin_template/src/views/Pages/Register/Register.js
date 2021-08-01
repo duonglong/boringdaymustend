@@ -28,7 +28,7 @@ class Register extends Component {
       this.setState({ errors: formErrors });
     } else {
       this.props.history.push('/login');
-      this.props.location.state.notify.show(`Welcome to the party ${email}, this would be fun :) `, "success", 3500);
+      this.props.location.state.notify.show(`Greeting, peasant`, "success", 3500);
     }
   }
   clearInput() {
